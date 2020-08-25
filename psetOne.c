@@ -1,6 +1,10 @@
+//NAME: Burmau Garba
+//Class: CSC 362
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
 int main()
 {
     char x;
@@ -16,7 +20,6 @@ int main()
 
     while ((x = getc(inputFile)) != -1)
     {
-
         if (counter < skip)
         {
             putc(x, outFile);
